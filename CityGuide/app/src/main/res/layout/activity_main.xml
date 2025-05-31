@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#484848"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/search_city"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Поиск города..."
+        android:padding="12dp"
+        android:background="@drawable/search_background"
+        android:drawableStart="@android:drawable/ic_menu_search"
+        android:drawablePadding="8dp"
+        android:inputType="text"
+        android:layout_marginBottom="2dp" />
+
+    <LinearLayout
+        android:id="@+id/city_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_white_rounded"
+    android:padding="16dp"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    android:elevation="4dp">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/city_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never"
+        android:clipToPadding="false"
+        android:paddingBottom="8dp"
+        android:scrollbars="none"/>
+
+</LinearLayout>
+
+
+    </LinearLayout>

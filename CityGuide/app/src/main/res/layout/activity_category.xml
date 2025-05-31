@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#484848">
+
+    <TextView
+        android:id="@+id/current_city"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:text="Город"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="12dp"
+        android:background="@drawable/city_label_background"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="30dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:background="@drawable/bg_white_rounded"
+        android:orientation="vertical"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:elevation="0dp">
+
+
+    <TextView
+        android:text="Выберите тематику"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"/>
+
+        <View
+            android:layout_gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="1dp"
+            android:background="#000000"
+            android:layout_marginBottom="18dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:layout_height="60dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/bg_card"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button_parks"
+                android:text="Парки"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/rounded_button"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:layout_height="60dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/bg_card"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/button_monuments"
+        android:text="Культура"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/rounded_button"
+        android:textColor="#000000" />
+    </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:layout_height="60dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/bg_card"
+            android:gravity="center"
+            android:orientation="vertical">
+    <Button
+        android:id="@+id/button_active"
+        android:text="Активный отдых"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/rounded_button"
+        android:textColor="#000000" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:layout_height="60dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/bg_card"
+            android:gravity="center"
+            android:orientation="vertical">
+    <Button
+        android:id="@+id/button_feelings"
+        android:text="Новые ощущения"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/rounded_button"
+        android:textColor="#000000" />
+    </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:layout_height="60dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/bg_card"
+            android:gravity="center"
+            android:orientation="vertical">
+    <Button
+        android:id="@+id/button_nature"
+        android:text="Флора и фауна"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/rounded_button"
+        android:textColor="#000000" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:layout_height="60dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/bg_card"
+            android:gravity="center"
+            android:orientation="vertical">
+    <Button
+        android:id="@+id/button_exhibitions"
+        android:text="Выставки"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/rounded_button"
+        android:textColor="#000000" />
+    </LinearLayout>
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:layout_height="60dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/bg_card"
+            android:gravity="center"
+            android:orientation="vertical">
+    <Button
+        android:id="@+id/button_games"
+        android:text="Игры"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/rounded_button"
+        android:textColor="#000000" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:layout_height="60dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/bg_card"
+            android:gravity="center"
+            android:orientation="vertical">
+    <Button
+        android:id="@+id/button_art"
+        android:text="Искусство"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/rounded_button"
+        android:textColor="#000000" />
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>
