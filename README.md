@@ -71,7 +71,7 @@ app/src/main/
 
 1. Клонировать репозиторий:
    ```bash
-   git clone https://github.com/zxcharm/CityGuide9_Final.git
+   git clone https://github.com/zxcharm/CityGuide.git
    ```
 2. Открыть папку проекта в **Android Studio**
 3. Дождаться синхронизации Gradle
